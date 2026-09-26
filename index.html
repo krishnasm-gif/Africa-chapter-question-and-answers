@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 7 Social Studies - Africa Lesson (Improve Your Learning)</title>
+    <style>
+        :root {
+            --primary-color: #1b4332;
+            --secondary-color: #2d6a4f;
+            --accent-color: #d8f3dc;
+            --text-color: #2b2b2b;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-color: #b7e4c7;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* Index Section */
+        .index-box {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+            border-left: 6px solid var(--secondary-color);
+        }
+
+        .index-box h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .index-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.5rem;
+        }
+
+        .index-list li a {
+            text-decoration: none;
+            color: var(--secondary-color);
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        .index-list li a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        /* Question Cards */
+        .question-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .question-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+        }
+
+        .q-header {
+            background-color: var(--accent-color);
+            padding: 1.2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .answer-body {
+            padding: 1.2rem;
+        }
+
+        .short-ans {
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            font-weight: 500;
+        }
+
+        /* Dropdown for Telugu Translation */
+        details {
+            background-color: #f1faee;
+            border-radius: 8px;
+            padding: 0.8rem 1rem;
+            border: 1px dashed var(--secondary-color);
+            margin-top: 1rem;
+        }
+
+        summary {
+            font-weight: 600;
+            color: var(--secondary-color);
+            cursor: pointer;
+            outline: none;
+            user-select: none;
+        }
+
+        summary:hover {
+            color: var(--primary-color);
+        }
+
+        .telugu-content {
+            margin-top: 0.8rem;
+            padding-top: 0.8rem;
+            border-top: 1px solid #d8f3dc;
+            font-size: 1.05rem;
+            color: #1d3557;
+            line-height: 1.8;
+        }
+
+        .telugu-heading {
+            font-weight: bold;
+            color: #457b9d;
+            margin-bottom: 0.3rem;
+            display: block;
+        }
+
+        /* Top Button */
+        .top-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: background-color 0.2s, transform 0.2s;
+        }
+
+        .top-btn:hover {
+            background-color: var(--secondary-color);
+            transform: scale(1.05);
+        }
+
+        @media (min-width: 600px) {
+            .index-list {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header id="top">
+        <h1>Class 7 Social Studies</h1>
+        <p>Chapter 6: Africa - Improve Your Learning (Bilingual Study Aid)</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Index Section -->
+        <nav class="index-box">
+            <h2>Index of Questions (ప్రశ్నల సూచిక)</h2>
+            <ul class="index-list">
+                <li><a href="#q1">1. Sea to cross from Europe to North Africa</a></li>
+                <li><a href="#q2">2. Difficulties in reaching interior Africa</a></li>
+                <li><a href="#q3">3. Two large deserts of Africa</a></li>
+                <li><a href="#q4">4. European countries for Nigeria & Zimbabwe</a></li>
+                <li><a href="#q5">5. Two countries with equatorial forests</a></li>
+                <li><a href="#q6">6. Trade goods & agricultural produce</a></li>
+                <li><a href="#q7">7. Beneficiaries and need for slave trade</a></li>
+                <li><a href="#q8">8. Heinous nature of the slave trade</a></li>
+                <li><a href="#q9">9. Commentary on the last paragraph</a></li>
+            </ul>
+        </nav>
+
+        <!-- Question 1 -->
+        <div class="question-card" id="q1">
+            <div class="q-header">Question 1: From Europe, which sea does one have to cross to reach northern Africa?</div>
+            <div class="answer-body">
+                <div class="short-ans">
+                    <strong>Short Answer:</strong> One has to cross the <strong>Mediterranean Sea</strong> to reach northern Africa from Europe.
+                </div>
+                <details>
+                    <summary>తెలుగు పూర్తి అనువాదం (View Telugu Translation)</summary>
+                    <div class="telugu-content">
+                        <span class="telugu-heading">ప్రశ్న:</span> ఐరోపా నుండి ఉత్తర ఆఫ్రికాకు చేరుకోవడానికి ఏ సముద్రాన్ని దాటాలి?<br>
+                        <span class="telugu-heading">జవాబు:</span> ఐరోపా నుండి ఉత్తర ఆఫ్రికాకు చేరుకోవడానికి మనం మధ్యధరా సముద్రాన్ని (Mediterranean Sea) దాటవలసి ఉంటుంది.
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question-card" id="q2">
+            <div class="q-header">Question 2: State three difficulties that the Europeans faced in reaching the interior parts of Africa.</div>
+            <div class="answer-body">
+                <div class="short-ans">
+                    柏<strong>Short Answer:</strong> The three main difficulties included dense equatorial forests and deserts, hostile direct conflicts with native African tribes, and severe communication barriers along with unfavorable weather.
+                </div>
+                <details>
+                    <summary>తెలుగు పూర్తి అనువాదం (View Telugu Translation)</summary>
+                    <div class="telugu-content">
+                        <span class="telugu-heading">ప్రశ్న:</span> ఆఫ్రికా లోపలి ప్రాంతాలకు చేరుకోవడంలో ఐరోపావాసులు ఎదుర్కొన్న మూడు ఇబ్బందులను తెలపండి.<br>
+                        <span class="telugu-heading">జవాబు:</span> 1. దట్టమైన అడవులు మరియు విస్తారమైన ఎడారులు ప్రయాణాన్ని కష్టతరం చేశాయి. 2. ఆఫ్రికా స్థానిక తెగల నుండి తీవ్రమైన ప్రతిఘటన మరియు ప్రత్యక్ష సంఘర్షణలు ఎదురయ్యాయి. 3. ప్రతికూల వాతావరణ పరిస్థితులు మరియు భాషా సమస్యల కారణంగా కమ్యూనికేషన్ ఇబ్బందులు తలెత్తాయి.
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-card" id="q3">
+            <div class="q-header">Question 3: Name the two large deserts of Africa.</div>
+            <div class="answer-body">
+                <div class="short-ans">
+                    <strong>Short Answer:</strong> The two large deserts of Africa are the <strong>Sahara Desert</strong> (in the north) and the <strong>Kalahari Desert</strong> (in the south).
+                </div>
+                <details>
+                    <summary>తెలుగు పూర్తి అనువాదం (View Telugu Translation)</summary>
+                    <div class="telugu-content">
+                        <span class="telugu-heading">ప్రశ్న:</span> ఆఫ్రికాలోని రెండు పెద్ద ఎడారిల పేర్లను తెలపండి.<br>
+                        <span class="telugu-heading">జవాబు:</span> ఆఫ్రికాలోని రెండు పెద్ద ఎడారులు ఉత్తర భాగంలో ఉన్న <strong>సహారా ఎడారి</strong> మరియు దక్షిణ భాగంలో ఉన్న <strong>కలహరి ఎడారి</strong>.
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-card" id="q4">
+            <div class="q-header">Question 4: Compare the two political maps of Africa to find out which European country controlled Nigeria and Zimbabwe.</div>
+            <div class="answer-body">
+                <div class="short-ans">
+                    <strong>Short Answer:</strong> <strong>Britain</strong> (England) controlled both Nigeria and Zimbabwe during the colonial era.
+                </div>
+                <details>
+                    <summary>తెలుగు పూర్తి అనువాదం (View Telugu Translation)</summary>
+                    <div class="telugu-content">
+                        <span class="telugu-heading">ప్రశ్న:</span> నైజీరియా మరియు జింబాబ్వే దేశాలను ఏ ఐరోపా దేశం నియంత్రించిందో కనుగొనండి.<br>
+                        <span class="telugu-heading">జవాబు:</span> వలసరాజ్యాల కాలంలో నైజీరియా మరియు జింబాబ్వే దేశాలను రెండింటినీ <strong>బ్రిటన్ (ఇంగ్లాండ్)</strong> దేశం నియంత్రించింది.
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-card" id="q5">
+            <div class="q-header">Question 5: Name two countries of Africa where equatorial forests are found.</div>
+            <div class="answer-body">
+                <div class="short-ans">
+                    <strong>Short Answer:</strong> Equatorial forests are prominently found in <strong>Congo</strong> and <strong>Gabon</strong>.
+                </div>
+                <details>
+                    <summary>తెలుగు పూర్తి అనువాదం (View Telugu Translation)</summary>
+                    <div class="telugu-content">
+                        <span class="telugu-heading">ప్రశ్న:</span> భూమధ్యరేఖ అడవులు (Equatorial forests) లభించే ఆఫ్రికాలోని రెండు దేశాల పేర్లు తెలపండి.<br>
+                        <span class="telugu-heading">జవాబు:</span> ఆఫ్రికాలో భూమధ్యరేఖ అడవులు ప్రధానంగా <strong>కాంగో</strong> మరియు <strong>గబాన్</strong> దేశాలలో కనిపిస్తాయి.
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-card" id="q6">
+            <div class="q-header">Question 6: What goods did Europeans trade with Africa? What kind of agricultural produce did they promote for trade purpose?</div>
+            <div class="answer-body">
+                <div class="short-ans">
+                    <strong>Short Answer:</strong> Europeans traded timber, minerals, gold, diamonds, and copper. For trade, they promoted agricultural plantations like cocoa, rubber, palm oil, tea, and tobacco.
+                </div>
+                <details>
+                    <summary>తెలుగు పూర్తి అనువాదం (View Telugu Translation)</summary>
+                    <div class="telugu-content">
+                        <span class="telugu-heading">ప్రశ్న:</span> ఐరోపావాసులు ఆఫ్రికాతో ఏ వస్తువులతో వ్యాపారం చేశారు? వాణిజ్య ప్రయోజనాల కోసం వారు ఎలాంటి వ్యవసాయోత్పత్తులను ప్రోత్సహించారు?<br>
+                        <span class="telugu-heading">జవాబు:</span> ఐరోపావాసులు ఆఫ్రికా నుండి కలప, ఖనిజాలు, బంగారం, వజ్రాలు మరియు రాగి వంటి వస్తువులతో వ్యాపారం చేశారు. వాణిజ్యం కోసం వారు కోకో, రబ్బరు, పామ్ ఆయిల్ (తాటి నూనె), తేయాకు మరియు పొగాకు వంటి వాణిజ్య పంటల సాగును ప్రోత్సహించారు.
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question-card" id="q7">
+            <div class="q-header">Question 7: Who benefited from the slave trade? Why did America need slaves?</div>
+            <div class="answer-body">
+                <div class="short-ans">
+                    <strong>Short Answer:</strong> European traders and African tribal leaders benefited from the trade. America needed slaves because there was plenty of land for cultivation but a severe shortage of labor to work on their fields.
+                </div>
+                <details>
+                    <summary>తెలుగు పూర్తి అనువాదం (View Telugu Translation)</summary>
+                    <div class="telugu-content">
+                        <span class="telugu-heading">ప్రశ్న:</span> బానిస వ్యాపారం ద్వారా ఎవరు లబ్ది పొందారు? అమెరికాకు బానిసల అవసరం ఎందుకు పడింది?<br>
+                        <span class="telugu-heading">జవాబు:</span> ఐరోపా వర్తకులు మరియు ఆఫ్రికన్ గిరిజన నాయకులు బానిస వ్యాపారం ద్వారా లబ్ది పొందారు. అమెరికాలో సాగు చేయడానికి విపరీతమైన భూమి ఉంది, కానీ పొలాల్లో పని చేయడానికి తగినంత మంది కూలీలు (శ్రామికులు) లేకపోవడం వల్ల బానిసల అవసరం పడింది.
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question-card" id="q8">
+            <div class="q-header">Question 8: How can you say that the slave trade is highly heinous?</div>
+            <div class="answer-body">
+                <div class="short-ans">
+                    <strong>Short Answer:</strong> The slave trade was heinous because captured Africans were brutally oppressed, stuffed into ships without proper food or medicine, subjected to malnutrition, and forced into harsh, inhumane labor.
+                </div>
+                <details>
+                    <summary>తెలుగు పూర్తి అనువాదం (View Telugu Translation)</summary>
+                    <div class="telugu-content">
+                        <span class="telugu-heading">ప్రశ్న:</span> బానిస వ్యాపారం అత్యంత హేయమైనది అని ఎందుకు చెప్పవచ్చు?<br>
+                        <span class="telugu-heading">జవాబు:</span> బానిసలను అత్యంత క్రూరంగా హింసించేవారు. తగినంత ఆహారం, వైద్యం లేకుండా ఓడల్లో కిక్కిరిಸಿ తరలించడం వల్ల చాలామంది అనారోగ్యం, పోషకాహార లోపంతో ప్రయాణంలోనే చనిపోయేవారు. అమెరికాకు చేరుకున్నాక కూడా కనీస వసతులు ఇవ్వకుండా కఠినమైన పనులు చేయించుకునేవారు. కాబట్టి బానిస వ్యాపారం అత్యంత అమానుషమైనది మరియు హేయమైనది.
+                    </div>
+                </details>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question-card" id="q9">
+            <div class="q-header">Question 9: Read the last paragraph of this lesson and comment on it.</div>
+            <div class="answer-body">
+                <div class="short-ans">
+                    <strong>Short Answer:</strong> Foreign companies exploited African mineral resources using cheap labor for massive profits while causing heavy environmental degradation, highlighting the need for sustainable resource management and local welfare.
+                </div>
+                <details>
+                    <summary>తెలుగు పూర్తి అనువాదం (View Telugu Translation)</summary>
+                    <div class="telugu-content">
+                        <span class="telugu-heading">ప్రశ్న:</span> ఈ పాఠంలోని చివరి పేరాను చదివి మీ అభిప్రాయాన్ని తెలపండి.<br>
+                        <span class="telugu-heading">జవాబు:</span> విదేశీ కంపెనీలు చౌకైన శ్రామికులను ఉపయోగించుకుని ఆఫ్రికా ఖనిజ సంపదను విపరీతంగా దోచుకుంటున్నాయని, భారీ లాభాలు ఆర్జిస్తున్నాయని ఈ పేరా తెలియజేస్తుంది. అదే సమయంలో పర్యావరణ పరిరక్షణను విస్మరించడం వల్ల స్థానిక ప్రజల జీవనం మరియు ప్రకృతి తీవ్రంగా దెబ్బతింటున్నాయి. వనరులను స్థానిక ప్రజల సంక్షేమం కోసం ఉపయోగించుకునేలా సరైన విధానాలు ఉండాలని ఇది సూచిస్తుంది.
+                    </div>
+                </details>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Floating Top Button -->
+    <a href="#top" class="top-btn" title="Go to Top">↑</a>
+
+</body>
+</html>
